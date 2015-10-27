@@ -1,0 +1,19 @@
+doctype xml
+document
+  catalogTemplate
+    banner
+      title 35mm Stock Footage
+    list
+      - data.content.video_sections.each do |video_section|
+        section
+          listItemLockup
+            title= video_section.title
+            decorationLabel= video_section.videos.size
+            relatedContent
+              grid
+                section
+                  - video_section.videos.each do |video|
+                    lockup videoURL=video.url
+                      img src=video.preview width=500 height=308
+                      title= video.title
+                      description = video.description

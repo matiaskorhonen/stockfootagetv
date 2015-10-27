@@ -1,0 +1,26 @@
+---
+video_sections:
+  - title: "Various videos"
+    videos:
+      - title: "Downtown Los Angeles streets"
+        description: "Downtown Los Angeles streets, process plates, color."
+        url: "https://archive.org/download/PET0981_R-2_LA_color/PET0981_R-2_LA_color_720p.mp4"
+        preview: "https://archive.org/download/PET0981_R-2_LA_color/PET0981_R-2_LA_color.thumbs/PET0981_R-2_LA_color_000027.jpg"
+      - title: "Hot Rods, Southern California, 1940s"
+        description: "Scenes at Southern California racetrack with hot rods and drivers."
+        url: "https://archive.org/download/27EG-28-EG-58_HOTRODS/27EG-28-EG-58_HOTRODS_720p.mp4"
+        preview: "https://archive.org/download/27EG-28-EG-58_HOTRODS/27EG-28-EG-58_HOTRODS.thumbs/27EG-28-EG-58_HOTRODS_000027.jpg"
+      - title: "Internet Archive 35mm Stock Footage Sample Reel"
+        description: "This reel shows samples from Internet Archive's 35mm Stock Footage collection."
+        url: "https://archive.org/download/InternetArchive35mmStockFootageSampleReel/IA35mmSampleReel_720p.mp4"
+        preview: "https://archive.org/download/InternetArchive35mmStockFootageSampleReel/InternetArchive35mmStockFootageSampleReel.thumbs/IA35mmSampleReel_000054.jpg"
+  - title: "Comedy"
+    videos:
+      - title: "The Mechanic (Part 1)"
+        description: "Silent comedy taking place in an automobile garage."
+        url: "https://archive.org/download/AFP-19-OJ_R-2_TheMechanic_A/AFP-19-OJ_R-2_TheMechanic_A_720p.mp4"
+        preview: "https://archive.org/download/AFP-19-OJ_R-2_TheMechanic_A/AFP-19-OJ_R-2_TheMechanic_A.thumbs/AFP-19-OJ_R-2_TheMechanic_A_000054.jpg"
+      - title: "The Mechanic (Part 2)"
+        description: "Silent comedy taking place in an automobile garage. 2/2"
+        url: "https://archive.org/download/AFP-19-OJ_R-2_TheMechanic_B/AFP-19-OJ_R-2_TheMechanic_B_720p.mp4"
+        preview: "https://archive.org/download/AFP-19-OJ_R-2_TheMechanic_B/AFP-19-OJ_R-2_TheMechanic_B.thumbs/AFP-19-OJ_R-2_TheMechanic_B_000005.jpg"

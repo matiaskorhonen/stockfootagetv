@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9AF1D501BD7D5BD00307EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF1D4F1BD7D5BD00307EDB /* AppDelegate.swift */; };
+		C9AF1D571BD7D5BD00307EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AF1D561BD7D5BD00307EDB /* Assets.xcassets */; };
+		C9AF1D621BD7D5BD00307EDB /* StockFootageTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF1D611BD7D5BD00307EDB /* StockFootageTVTests.swift */; };
+		C9AF1D6D1BD7D5BD00307EDB /* StockFootageTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AF1D6C1BD7D5BD00307EDB /* StockFootageTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9AF1D5E1BD7D5BD00307EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9AF1D441BD7D5BD00307EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9AF1D4B1BD7D5BD00307EDB;
+			remoteInfo = StockFootageTV;
+		};
+		C9AF1D691BD7D5BD00307EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9AF1D441BD7D5BD00307EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9AF1D4B1BD7D5BD00307EDB;
+			remoteInfo = StockFootageTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9AF1D4C1BD7D5BD00307EDB /* StockFootageTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockFootageTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AF1D4F1BD7D5BD00307EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9AF1D561BD7D5BD00307EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9AF1D581BD7D5BD00307EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9AF1D5D1BD7D5BD00307EDB /* StockFootageTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockFootageTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AF1D611BD7D5BD00307EDB /* StockFootageTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockFootageTVTests.swift; sourceTree = "<group>"; };
+		C9AF1D631BD7D5BD00307EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9AF1D681BD7D5BD00307EDB /* StockFootageTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockFootageTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AF1D6C1BD7D5BD00307EDB /* StockFootageTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockFootageTVUITests.swift; sourceTree = "<group>"; };
+		C9AF1D6E1BD7D5BD00307EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9AF1D491BD7D5BD00307EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AF1D5A1BD7D5BD00307EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AF1D651BD7D5BD00307EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9AF1D431BD7D5BD00307EDB = {
+			isa = PBXGroup;
+			children = (
+				C9AF1D4E1BD7D5BD00307EDB /* StockFootageTV */,
+				C9AF1D601BD7D5BD00307EDB /* StockFootageTVTests */,
+				C9AF1D6B1BD7D5BD00307EDB /* StockFootageTVUITests */,
+				C9AF1D4D1BD7D5BD00307EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9AF1D4D1BD7D5BD00307EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF1D4C1BD7D5BD00307EDB /* StockFootageTV.app */,
+				C9AF1D5D1BD7D5BD00307EDB /* StockFootageTVTests.xctest */,
+				C9AF1D681BD7D5BD00307EDB /* StockFootageTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9AF1D4E1BD7D5BD00307EDB /* StockFootageTV */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF1D4F1BD7D5BD00307EDB /* AppDelegate.swift */,
+				C9AF1D561BD7D5BD00307EDB /* Assets.xcassets */,
+				C9AF1D581BD7D5BD00307EDB /* Info.plist */,
+			);
+			path = StockFootageTV;
+			sourceTree = "<group>";
+		};
+		C9AF1D601BD7D5BD00307EDB /* StockFootageTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF1D611BD7D5BD00307EDB /* StockFootageTVTests.swift */,
+				C9AF1D631BD7D5BD00307EDB /* Info.plist */,
+			);
+			path = StockFootageTVTests;
+			sourceTree = "<group>";
+		};
+		C9AF1D6B1BD7D5BD00307EDB /* StockFootageTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF1D6C1BD7D5BD00307EDB /* StockFootageTVUITests.swift */,
+				C9AF1D6E1BD7D5BD00307EDB /* Info.plist */,
+			);
+			path = StockFootageTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9AF1D4B1BD7D5BD00307EDB /* StockFootageTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9AF1D711BD7D5BD00307EDB /* Build configuration list for PBXNativeTarget "StockFootageTV" */;
+			buildPhases = (
+				C9AF1D481BD7D5BD00307EDB /* Sources */,
+				C9AF1D491BD7D5BD00307EDB /* Frameworks */,
+				C9AF1D4A1BD7D5BD00307EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockFootageTV;
+			productName = StockFootageTV;
+			productReference = C9AF1D4C1BD7D5BD00307EDB /* StockFootageTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9AF1D5C1BD7D5BD00307EDB /* StockFootageTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9AF1D741BD7D5BD00307EDB /* Build configuration list for PBXNativeTarget "StockFootageTVTests" */;
+			buildPhases = (
+				C9AF1D591BD7D5BD00307EDB /* Sources */,
+				C9AF1D5A1BD7D5BD00307EDB /* Frameworks */,
+				C9AF1D5B1BD7D5BD00307EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9AF1D5F1BD7D5BD00307EDB /* PBXTargetDependency */,
+			);
+			name = StockFootageTVTests;
+			productName = StockFootageTVTests;
+			productReference = C9AF1D5D1BD7D5BD00307EDB /* StockFootageTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9AF1D671BD7D5BD00307EDB /* StockFootageTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9AF1D771BD7D5BD00307EDB /* Build configuration list for PBXNativeTarget "StockFootageTVUITests" */;
+			buildPhases = (
+				C9AF1D641BD7D5BD00307EDB /* Sources */,
+				C9AF1D651BD7D5BD00307EDB /* Frameworks */,
+				C9AF1D661BD7D5BD00307EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9AF1D6A1BD7D5BD00307EDB /* PBXTargetDependency */,
+			);
+			name = StockFootageTVUITests;
+			productName = StockFootageTVUITests;
+			productReference = C9AF1D681BD7D5BD00307EDB /* StockFootageTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9AF1D441BD7D5BD00307EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Matias Korhonen";
+				TargetAttributes = {
+					C9AF1D4B1BD7D5BD00307EDB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C9AF1D5C1BD7D5BD00307EDB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C9AF1D4B1BD7D5BD00307EDB;
+					};
+					C9AF1D671BD7D5BD00307EDB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C9AF1D4B1BD7D5BD00307EDB;
+					};
+				};
+			};
+			buildConfigurationList = C9AF1D471BD7D5BD00307EDB /* Build configuration list for PBXProject "StockFootageTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9AF1D431BD7D5BD00307EDB;
+			productRefGroup = C9AF1D4D1BD7D5BD00307EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9AF1D4B1BD7D5BD00307EDB /* StockFootageTV */,
+				C9AF1D5C1BD7D5BD00307EDB /* StockFootageTVTests */,
+				C9AF1D671BD7D5BD00307EDB /* StockFootageTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9AF1D4A1BD7D5BD00307EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AF1D571BD7D5BD00307EDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AF1D5B1BD7D5BD00307EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AF1D661BD7D5BD00307EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9AF1D481BD7D5BD00307EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AF1D501BD7D5BD00307EDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AF1D591BD7D5BD00307EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AF1D621BD7D5BD00307EDB /* StockFootageTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9AF1D641BD7D5BD00307EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AF1D6D1BD7D5BD00307EDB /* StockFootageTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9AF1D5F1BD7D5BD00307EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9AF1D4B1BD7D5BD00307EDB /* StockFootageTV */;
+			targetProxy = C9AF1D5E1BD7D5BD00307EDB /* PBXContainerItemProxy */;
+		};
+		C9AF1D6A1BD7D5BD00307EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9AF1D4B1BD7D5BD00307EDB /* StockFootageTV */;
+			targetProxy = C9AF1D691BD7D5BD00307EDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9AF1D6F1BD7D5BD00307EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		C9AF1D701BD7D5BD00307EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9AF1D721BD7D5BD00307EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = StockFootageTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fi.matiaskorhonen.StockFootageTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9AF1D731BD7D5BD00307EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = StockFootageTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fi.matiaskorhonen.StockFootageTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9AF1D751BD7D5BD00307EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StockFootageTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fi.matiaskorhonen.StockFootageTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockFootageTV.app/StockFootageTV";
+			};
+			name = Debug;
+		};
+		C9AF1D761BD7D5BD00307EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StockFootageTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fi.matiaskorhonen.StockFootageTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockFootageTV.app/StockFootageTV";
+			};
+			name = Release;
+		};
+		C9AF1D781BD7D5BD00307EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StockFootageTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fi.matiaskorhonen.StockFootageTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StockFootageTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C9AF1D791BD7D5BD00307EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StockFootageTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fi.matiaskorhonen.StockFootageTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StockFootageTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9AF1D471BD7D5BD00307EDB /* Build configuration list for PBXProject "StockFootageTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AF1D6F1BD7D5BD00307EDB /* Debug */,
+				C9AF1D701BD7D5BD00307EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9AF1D711BD7D5BD00307EDB /* Build configuration list for PBXNativeTarget "StockFootageTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AF1D721BD7D5BD00307EDB /* Debug */,
+				C9AF1D731BD7D5BD00307EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9AF1D741BD7D5BD00307EDB /* Build configuration list for PBXNativeTarget "StockFootageTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AF1D751BD7D5BD00307EDB /* Debug */,
+				C9AF1D761BD7D5BD00307EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9AF1D771BD7D5BD00307EDB /* Build configuration list for PBXNativeTarget "StockFootageTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9AF1D781BD7D5BD00307EDB /* Debug */,
+				C9AF1D791BD7D5BD00307EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9AF1D441BD7D5BD00307EDB /* Project object */;
+}
